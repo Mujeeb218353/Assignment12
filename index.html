@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 12 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Show Time</h1>
+        <button onclick="showTime()">Show Time</button>
+        <p id="time"></p>
+    </div>
+    <div class="box">
+        <h1>Greet Message</h1>
+        <label>
+            First Name
+            <input type="text" id="fn" placeholder="Enter a string" required>
+        </label>
+        <label>
+            Last Name
+            <input type="text" id="ln" placeholder="Enter a string" required>
+        </label>
+        <p id="greet"></p>
+        <button onclick="greet()">Greet</button>
+    </div>
+    <div class="box">
+        <h1>Sum of 2 Numbers</h1>
+        <label>
+            First Number
+            <input type="text" id="num1" required placeholder="Number">
+        </label>
+        <label>
+            Second Number
+            <input type="text" id="num2" required placeholder="Number">
+        </label>
+        <p id="add"></p>
+        <button onclick="sum()">Add</button>
+    </div>
+    <div class="box">
+        <h1>Calculator</h1>
+        <label>
+            First Number
+            <input type="text" id="number1" required placeholder="Number">
+        </label>
+        <label>
+            Second Number
+            <input type="text" id="number2" required placeholder="Number">
+        </label>
+        <label>
+            Choose Operator
+            <select id="operator">
+                <option value="+">Addition: +</option>
+                <option value="-">Subtraction: -</option>
+                <option value="*">Multiplication: *</option>
+                <option value="/">Division: /</option>
+                <option value="%">Modulus: %</option>
+            </select>
+        </label>
+        <p id="result"></p>
+        <button onclick="cal()">Calculate</button>
+    </div>
+    <div class="box">
+        <h1>Square of a Number</h1>
+        <label>
+            Enter Number
+            <input type="text" id="num" required placeholder="Number">
+        </label>
+        <p id="square"></p>
+        <button onclick="sq()">Find Square</button>
+    </div>
+    <div class="box">
+        <h1>Factorial of a Number</h1>
+        <label>
+            Enter Number
+            <input type="text" id="fac" required placeholder="Number">
+        </label>
+        <p id="factorial"></p>
+        <button onclick="fac()">Find Factorial</button>
+    </div>
+    <div class="box">
+        <h1>Number Printer</h1>
+        <label>
+            Start Number
+            <input type="text" id="sNum" required placeholder="Number">
+        </label>
+        <label>
+            End Number
+            <input type="text" id="lNum" required placeholder="Number">
+        </label>
+        <p id="printNumber"></p>
+        <button onclick="printNum()">Print Number</button>
+    </div>
+    <div class="box">
+        <h1>Hypotenuse Calculator</h1>
+        <label>
+            Enter Base
+            <input type="text" id="base" required placeholder="Number">
+        </label>
+        <label>
+            Enter Perpendicular
+            <input type="text" id="perp" required placeholder="Number">
+        </label>
+        <p id="printHyp"></p>
+        <button onclick="hypotenuse()">Find Hypotenuse</button>
+    </div>
+    <div class="box">
+        <h1>Area of Rectangle</h1>
+        <label>
+             Enter Length
+            <input type="text" id="length" required placeholder="Number">
+        </label>
+        <label>
+            Enter Width
+            <input type="text" id="width" required placeholder="Number">
+        </label>
+        <p id="printArea"></p>
+        <button onclick="area()">Find Area of Rectangle</button>
+    </div>
+    <div class="box">
+        <h1>String is Palindrome or Not</h1>
+        <label>
+            Enter String
+            <input type="text" id="palindromeOrNot" required placeholder="Enter a string">
+        </label>
+        <p id="palindromeString"></p>
+        <button onclick="palindrome()">Check String</button>
+    </div>
+    <div class="box">
+        <h1>String Local Upper Case Converter</h1>
+        <label>
+            Enter String
+            <input type="text" id="upper" required placeholder="Enter a string">
+        </label>
+        <p id="localCase"></p>
+        <button onclick="localCase()">Check String</button>
+    </div>
+    <div class="box">
+        <h1>Long Word Finder in a String</h1>
+        <label>
+            Enter String
+            <input type="text" id="str" required placeholder="Enter a string">
+        </label>
+        <p id="longStr"></p>
+        <button id="longStrButton">Check String</button>
+    </div>
+    <div class="box">
+        <h1>Count Letter Occurrences</h1>
+        <label for="inputString">
+            Enter a string
+            <input type="text" id="inputString" placeholder="Enter a string">
+        </label>
+        <label for="letter">
+            Enter a letter
+            <input type="text" id="letter" placeholder="Enter a letter">
+        </label>
+        <p id="count"></p>
+        <button id="countButton">Count Occurrences</button>
+    </div>
+    <div class="box">
+        <h1>Calculate Circle Properties</h1>
+        <label for="radius">
+            Enter the radius of the circle
+            <input type="number" id="radius" placeholder="Enter radius" required>
+        </label>
+        <p id="circumferenceResult"></p>
+        <p id="areaResult"></p>
+        <button id="calculateButton">Calculate</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
